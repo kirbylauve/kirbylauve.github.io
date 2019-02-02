@@ -1,0 +1,11 @@
+Img Table of tools(sektchbook pencil laptop etc.)
+each opject on the table is a link to a specific part of the portfolio
+
+Items:
+    pen:            computer drawings
+    pencil:         hand drawings
+    laptop:         code work
+    camera:         photography
+    extruder head:  3D printing work
+    business card:  professional work
+    sketchbook:     sketches and notes
