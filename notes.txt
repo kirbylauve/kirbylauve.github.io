@@ -5,9 +5,4 @@ Current Status
     -media query max 10,000px {
         no more grid, flexbox wrapping
     }
-To do:
-    -A better way to learn JavaScript
-    -html validator
-    -css validator
-    -git pages
 }
