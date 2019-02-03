@@ -45,6 +45,7 @@ h2 {
     margin: auto;
 }
 .lable{
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     align-self: flex-end;
 
@@ -78,9 +79,10 @@ h2 {
     grid-column: 4;   
 }
 footer {
+    font-family: Arial, Helvetica, sans-serif;
     grid-row: 4;
     grid-column: 1 / span 4;
-    background: steelblue;
+    background: rgba(129, 129, 129, 0.2);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -88,8 +90,19 @@ footer {
 .social {
     display: inline-block;
 }
+.social img {
+    max-width: 75px;
+    max-height: 40px;
+}
+#ig {
+    order: 1;
+}
+#linkedIn {
+    order: 3;
+}
 .copyright {
     display: inline-block;
+    order: 2;
 }
 /* .expand {
     opacity: 0;
