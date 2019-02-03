@@ -1,3 +1,3 @@
-$('article').on('click', function() {
+$('div').on('click', function() {
     $(this).toggleClass('show-description');
 });
