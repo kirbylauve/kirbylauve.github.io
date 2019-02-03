@@ -1,0 +1,12 @@
+2019 02 02 {
+Current Status
+    -boxes are not staying square because they take a fraction of what is left after the pixels used by header and footer
+    -try moving text over the center to make sure overlay is working properly
+    
+To do:
+    -add social media thumbs and links
+    -colors and fonts
+    -html validator
+    -css validator
+    -git pages
+}
