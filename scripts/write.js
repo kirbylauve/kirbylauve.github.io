@@ -1,3 +1,5 @@
+console.log("hello world")
+
 $('div').on('click', function() {
-    $(this).toggleClass('show-description');
+    $(expand).toggleClass('show-description');
 });

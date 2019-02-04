@@ -1,4 +1,19 @@
-body {
+/* @media (max-width: 900px) {
+    body {
+        display: grid;
+        grid-gap: 3px;
+        grid-template-rows: 100px 175px 175px 175px 100px;
+        grid-template-columns: 33% 33% 33%;
+        max-width:900px;
+        grid-template-areas: 
+        "header header header"
+        "laptop sketchbook businessCard"
+        "laptop pen pencil"
+        "laptop camera printing"
+        "footer footer footer";
+    } */
+    
+    body {
     display: grid;
     grid-gap: 3px;
     grid-template-rows: 100px 250px 250px 100px;
@@ -20,11 +35,13 @@ header img {
 h1 {
     color: rgb(194, 46, 53);
     align-self: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     color: rgba(67, 162, 226, 0.479);
     align-self: flex-end;
     padding: 3px 6px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .item {
     display: flex;
@@ -45,6 +62,7 @@ h2 {
 .lable {
     position: absolute;
     align-self: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #laptop {
     grid-row: 2 / span 2;
@@ -81,6 +99,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .social {
     display: inline-block;
@@ -123,20 +142,20 @@ footer {
     h1 {
         color: rgb(194, 46, 53);
         align-self: flex-end;
+        font-family: Arial, Helvetica, sans-serif;
     }
     h2 {
         color: rgba(67, 162, 226, 0.479);
         align-self: flex-end;
         padding: 3px 6px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .item {
         display: flex;
         padding: 2px;
         border: 2px solid rgba(0,0,0,.5);
         background: white;
-        justify-content: flex-end;
-        
-        
+        justify-content: flex-end;   
     }
     .mainImg{
         position: relative;
@@ -148,6 +167,7 @@ footer {
     .lable {
         position: absolute;
         align-self: flex-end;
+        font-family: Arial, Helvetica, sans-serif;
     }
     #laptop {
         grid-row: 2 / span 3;
@@ -184,6 +204,7 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .social {
         display: inline-block;
@@ -205,7 +226,7 @@ footer {
   
     }
 /* .expand {
-    opacity: 0;
+    display: none;
     position: absolute; 
 } */
 
